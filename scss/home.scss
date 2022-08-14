@@ -1,0 +1,94 @@
+.content-section {
+  .container {
+    position: relative;
+
+    .background-image {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+    }
+    .row {
+      position: relative;
+      margin-top: -95px;
+      .product-slider {
+        position: relative;
+
+        .slick-track {
+          margin-left: 0;
+        }
+
+        .slick-list {
+          position: relative;
+          z-index: 1;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -3px;
+          margin: 0 auto;
+          background-image: url(../image/slider-bottom.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 1138px;
+          height: 69px;
+        }
+        .product-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .image {
+            height: 165px;
+            img {
+              display: block;
+              height: 134px;
+              object-fit: contain;
+            }
+          }
+          .title {
+            h4 {
+              font-size: 16px;
+              color: white;
+              font-weight: 700;
+            }
+          }
+          .price {
+            background-color: white;
+            border: 6px solid #aed6f1;
+            padding: 0 10px;
+            margin-top: -30px;
+            h4 {
+              color: black;
+              font-weight: 700;
+              font-size: 15px;
+            }
+          }
+          .button-wrap {
+            button {
+              border: none;
+              background: none;
+              img {
+                display: block;
+                height: 34px;
+                object-fit: contain;
+              }
+            }
+          }
+        }
+      }
+      .instraction-box {
+        img {
+          position: absolute;
+          width: 70px;
+          right: -60px;
+          bottom: 34px;
+        }
+      }
+    }
+  }
+}
