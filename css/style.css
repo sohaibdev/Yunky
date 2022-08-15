@@ -40,6 +40,7 @@ body {
   background-image: url("../image/background-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: -50px;
 }
 
 .container-fluid {
@@ -125,8 +126,17 @@ header .row nav .nav-box .navbar .socials-icons li:last-child {
 }
 header .row nav .nav-box .navbar .socials-icons li a {
   text-decoration: none;
-  color: black;
+  color: yellow;
   border-radius: 50%;
+  width: 29px;
+  height: 29px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+header .row nav .nav-box .navbar .socials-icons li a:hover {
+  color: white;
 }
 
 .content-section .container {
@@ -164,7 +174,7 @@ header .row nav .nav-box .navbar .socials-icons li a {
   background-image: url(../image/slider-bottom.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1138px;
+  width: 1016px;
   height: 69px;
 }
 .content-section .container .row .product-slider .product-box {
@@ -173,7 +183,7 @@ header .row nav .nav-box .navbar .socials-icons li a {
   align-items: center;
 }
 .content-section .container .row .product-slider .product-box .image {
-  height: 165px;
+  height: 137px;
 }
 .content-section .container .row .product-slider .product-box .image img {
   display: block;
@@ -193,7 +203,7 @@ header .row nav .nav-box .navbar .socials-icons li a {
 }
 .content-section .container .row .product-slider .product-box .price h4 {
   color: black;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 15px;
 }
 .content-section .container .row .product-slider .product-box .button-wrap button {
