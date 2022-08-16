@@ -9,15 +9,21 @@ $(document).ready(function () {
     pauseOnHover: false,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
       {
         breakpoint: 520,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 1,
         },
       },
     ],

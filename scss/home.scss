@@ -1,4 +1,10 @@
 .content-section {
+  @media (max-width: 1024px) {
+    margin-top: 97px;
+  }
+  @media (max-width: 769px) {
+    margin-top: 130px;
+  }
   .container {
     position: relative;
 
@@ -6,8 +12,14 @@
       position: absolute;
       left: 0;
       top: 0;
-      height: 100%;
-      width: 100%;
+      width: 1320px;
+      height: 469px;
+      @media (max-width: 1199px) {
+        left: -171px;
+      }
+      @media (max-width: 1024px) {
+        left: -195px;
+      }
     }
     .row {
       position: relative;
@@ -35,19 +47,67 @@
           background-image: url(../image/slider-bottom.png);
           background-size: contain;
           background-repeat: no-repeat;
-          width: 1016px;
+          width: 1160px;
           height: 69px;
+          @media (max-width: 1199px) {
+            width: 974px;
+            bottom: -10px;
+          }
+
+          @media (max-width: 1024px) {
+            width: 928px;
+            bottom: -11px;
+          }
+          @media (max-width: 991px) {
+            width: 771px;
+            bottom: -18px;
+          }
+          @media (max-width: 769px) {
+            bottom: -21px;
+            left: -21px;
+            width: 705px;
+          }
+
+          
         }
         .product-box {
           display: flex;
           flex-direction: column;
           align-items: center;
+          @media (max-width: 769px) {
+            width: 174px;
+          }
           .image {
-            height: 137px;
+            height: 162px;
+            @media (max-width: 1199px) {
+              height: 166px;
+            }
+            @media (max-width: 1024px) {
+              height: 168px;
+            }
+            @media (max-width: 991px) {
+              height: 173px;
+            }
+            @media (max-width: 769px) {
+              height: 175px;
+            }
+
             img {
               display: block;
-              height: 134px;
+              height: 153px;
               object-fit: contain;
+              @media (max-width: 1199px) {
+                height: 167px;
+              }
+              @media (max-width: 1024px) {
+                height: 168px;
+              }
+              @media (max-width: 991px) {
+                height: 180px;
+              }
+              @media (max-width: 769px) {
+                height: 176px;
+              }
             }
           }
           .title {
@@ -62,6 +122,10 @@
             border: 6px solid #aed6f1;
             padding: 0 10px;
             margin-top: -30px;
+            @media (max-width: 1199px) {
+              border: 4px solid #aed6f1;
+            }
+
             h4 {
               color: black;
               font-weight: 900;
@@ -76,6 +140,9 @@
                 display: block;
                 height: 34px;
                 object-fit: contain;
+                @media (max-width: 991px) {
+                  height: 28px;
+                }
               }
             }
           }
@@ -84,9 +151,22 @@
       .instraction-box {
         img {
           position: absolute;
-          width: 70px;
-          right: -60px;
-          bottom: 34px;
+          width: 43px;
+          right: -41px;
+          bottom: 33px;
+          @media (max-width: 1199px) {
+            right: -103px;
+          }
+          @media (max-width: 1024px) {
+            right: -26px;
+          }
+          @media (max-width: 991px) {
+            right: -125px;
+          }
+          @media (max-width: 769px) {
+            right: -22px;
+            bottom: 52px;
+          }
         }
       }
     }

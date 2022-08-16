@@ -3,6 +3,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: -50px;
+  @media (max-width: 1199px) {
+    margin-bottom: -65px;
+  }
 }
 .container-fluid {
   padding: 0 40px;
