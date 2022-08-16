@@ -363,6 +363,12 @@ header .row nav .nav-box .navbar .socials-icons li a:hover {
     bottom: 52px;
   }
 }
+@media (max-width: 575px) {
+  .content-section .container .row .instraction-box img {
+    right: 2px;
+    bottom: 272px;
+  }
+}
 
 @media (max-width: 575px) {
   .bottom-section {

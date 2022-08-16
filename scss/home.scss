@@ -67,8 +67,6 @@
             left: -21px;
             width: 705px;
           }
-
-          
         }
         .product-box {
           display: flex;
@@ -166,6 +164,10 @@
           @media (max-width: 769px) {
             right: -22px;
             bottom: 52px;
+          }
+          @media (max-width: 575px) {
+            right: 2px;
+            bottom: 272px;
           }
         }
       }
