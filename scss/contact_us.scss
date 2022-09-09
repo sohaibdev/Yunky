@@ -5,11 +5,20 @@ body {
   /* Contact Left */
   .contact {
 	padding: 20px 0;
+	.contact-left {
+		@media (max-width: 557px) {
+			margin-bottom: 20px;
+		}
+		p {
+			margin: 25px 0 20px 0;
+		}
+	}
+	.content-box-md {
+		form {
+			margin-top: 20px;
+		  }
+	}
   }
-
-.contact-left p {
-    margin: 25px 0 20px 0;
-}
 
 ul.office-details {
     list-style: none;

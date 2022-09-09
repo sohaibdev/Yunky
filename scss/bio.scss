@@ -1,0 +1,90 @@
+/* =========================================
+                About 01
+============================================ */
+
+.about-right p {
+  margin-bottom: 30px;
+}
+
+/* =========================================
+                About 02
+============================================ */
+
+.about-02 {
+  background-color: #f4f4f4;
+  margin: 30px 0;
+  .about-item {
+    background-color: #fff;
+    padding: 80px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    i {
+      font-size: 42px;
+      margin: 0;
+    }
+    h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    hr {
+      width: 45px;
+      height: 3px;
+      background-color: #f4c613;
+      margin: 0 auto;
+      border: none;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+    @media (max-width: 576px) {
+      margin-bottom: 20px;
+    }
+  }
+  .content-box-md {
+    padding: 100px 0;
+	.submit-btn {
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+	}
+    form {
+      margin-top: 20px;
+    }
+  }
+}
+
+/* Hover state */
+
+.about-item:hover {
+  background-color: #f4c613;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: #fff;
+}
+
+.about-item:hover hr {
+  background-color: #fff;
+}
+
+.about-item:hover i {
+  transform: translateY(-20px);
+}
+
+/* Smooth transition */
+
+.about-item,
+.about-item i,
+.about-item hr {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.about-item h3,
+.about-item p {
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+}

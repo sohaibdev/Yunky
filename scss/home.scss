@@ -1,3 +1,12 @@
+body {
+  background-image: url("../image/background-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -50px;
+  @media (max-width: 1199px) {
+    margin-bottom: -65px;
+  }
+}
 .content-section {
   @media (max-width: 1024px) {
     margin-top: 97px;

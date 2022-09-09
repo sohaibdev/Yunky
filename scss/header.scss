@@ -1,4 +1,13 @@
 /*### HEADER ###*/
+body {
+  background-image: url("../image/background-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -50px;
+  @media (max-width: 1199px) {
+    margin-bottom: -65px;
+  }
+}
 header {
   .row {
     justify-content: space-between;
