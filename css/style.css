@@ -556,10 +556,6 @@ body {
   transition: all 400ms linear;
 }
 
-body {
-  background-image: none !important;
-}
-
 /* Contact Left */
 .contact {
   padding: 20px 0;
