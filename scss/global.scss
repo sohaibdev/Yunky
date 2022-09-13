@@ -43,6 +43,10 @@ body {
   justify-content: center;
   .btn-back {
     border: none;
+    &:hover {
+      text-decoration: underline;
+      color: blue;
+    }
   }
 }
 
