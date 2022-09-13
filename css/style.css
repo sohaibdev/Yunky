@@ -492,7 +492,7 @@ body {
     bottom: 209px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 424px) {
   .content-section .container .row .instraction-box img {
     right: 2px;
     bottom: 49px;
