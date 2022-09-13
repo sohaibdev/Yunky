@@ -282,6 +282,16 @@ body {
   width: 1320px;
   height: 469px;
 }
+@media (max-width: 1400px) {
+  .content-section .container .background-image {
+    left: -92px;
+  }
+}
+@media (max-width: 1350px) {
+  .content-section .container .background-image {
+    left: -92px;
+  }
+}
 @media (max-width: 1199px) {
   .content-section .container .background-image {
     left: -179px;
@@ -444,9 +454,14 @@ body {
   right: -87px;
   bottom: 5px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .content-section .container .row .instraction-box img {
     right: -38px;
+  }
+}
+@media (max-width: 1400px) {
+  .content-section .container .row .instraction-box img {
+    right: -128px;
   }
 }
 @media (max-width: 1199px) {
@@ -475,6 +490,12 @@ body {
   .content-section .container .row .instraction-box img {
     right: 2px;
     bottom: 209px;
+  }
+}
+@media (max-width: 425px) {
+  .content-section .container .row .instraction-box img {
+    right: 2px;
+    bottom: 49px;
   }
 }
 
@@ -564,7 +585,7 @@ body {
 
 /* Contact Left */
 .contact {
-  padding: 20px 0;
+  padding: 0 0 80px;
 }
 @media (max-width: 557px) {
   .contact .contact-left {
@@ -649,6 +670,8 @@ ul.office-details li i {
 }
 
 footer {
+  display: flex;
+  width: 100%;
   padding: 8px 0;
   background-color: #ff8aad;
 }
@@ -768,9 +791,11 @@ footer p {
 }
 
 footer {
-  margin-top: 30px;
+  display: flex;
+  width: 100%;
   padding: 8px 0;
   background-color: #ff8aad;
+  margin-top: 20px;
 }
 footer p {
   margin-bottom: 0;

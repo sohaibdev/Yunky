@@ -1,7 +1,7 @@
 
 /* Contact Left */
 .contact {
-  padding: 20px 0;
+  padding: 0 0 80px;
   .contact-left {
     @media (max-width: 557px) {
       margin-bottom: 20px;
@@ -90,6 +90,8 @@ ul.office-details li i {
 }
 
 footer {
+  display: flex;
+  width: 100%;
   padding: 8px 0;
   background-color: #ff8aad;
 

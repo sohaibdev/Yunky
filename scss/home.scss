@@ -23,6 +23,12 @@ body {
       top: 0;
       width: 1320px;
       height: 469px;
+      @media (max-width: 1400px) {
+        left: -92px;
+      }
+      @media (max-width: 1350px) {
+        left: -92px;
+      }
       @media (max-width: 1199px) {
         left: -179px;
       }
@@ -161,8 +167,11 @@ body {
           width: 100px;
           right: -87px;
           bottom: 5px;
-          @media (max-width: 1400px) {
+          @media (max-width: 1440px) {
             right: -38px;
+          }
+          @media (max-width: 1400px) {
+            right: -128px;
           }
           @media (max-width: 1199px) {
             right: -103px;
@@ -181,6 +190,10 @@ body {
           @media (max-width: 575px) {
             right: 2px;
             bottom: 209px;
+          }
+          @media (max-width: 425px) {
+            right: 2px;
+            bottom: 49px;
           }
         }
       }
