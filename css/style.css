@@ -459,9 +459,14 @@ body {
     right: -38px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1399px) {
   .content-section .container .row .instraction-box img {
     right: -128px;
+  }
+}
+@media (max-width: 1350px) {
+  .content-section .container .row .instraction-box img {
+    right: -103gpx;
   }
 }
 @media (max-width: 1199px) {
