@@ -440,9 +440,9 @@ body {
 }
 .content-section .container .row .instraction-box img {
   position: absolute;
-  width: 43px;
-  right: -41px;
-  bottom: 33px;
+  width: 85px;
+  right: -104px;
+  bottom: 5px;
 }
 @media (max-width: 1199px) {
   .content-section .container .row .instraction-box img {
@@ -461,14 +461,14 @@ body {
 }
 @media (max-width: 769px) {
   .content-section .container .row .instraction-box img {
-    right: -22px;
+    right: -107px;
     bottom: 52px;
   }
 }
 @media (max-width: 575px) {
   .content-section .container .row .instraction-box img {
     right: 2px;
-    bottom: 272px;
+    bottom: 209px;
   }
 }
 
