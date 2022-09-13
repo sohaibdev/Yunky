@@ -440,9 +440,14 @@ body {
 }
 .content-section .container .row .instraction-box img {
   position: absolute;
-  width: 85px;
-  right: -104px;
+  width: 100px;
+  right: -87px;
   bottom: 5px;
+}
+@media (max-width: 1400px) {
+  .content-section .container .row .instraction-box img {
+    right: -38px;
+  }
 }
 @media (max-width: 1199px) {
   .content-section .container .row .instraction-box img {
@@ -461,8 +466,9 @@ body {
 }
 @media (max-width: 769px) {
   .content-section .container .row .instraction-box img {
-    right: -107px;
-    bottom: 52px;
+    right: -23px;
+    bottom: 206px;
+    width: 86px;
   }
 }
 @media (max-width: 575px) {

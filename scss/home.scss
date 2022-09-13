@@ -158,9 +158,12 @@ body {
       .instraction-box {
         img {
           position: absolute;
-          width: 85px;
-          right: -104px;
+          width: 100px;
+          right: -87px;
           bottom: 5px;
+          @media (max-width: 1400px) {
+            right: -38px;
+          }
           @media (max-width: 1199px) {
             right: -103px;
           }
@@ -171,8 +174,9 @@ body {
             right: -125px;
           }
           @media (max-width: 769px) {
-            right: -107px;
-            bottom: 52px;
+            right: -23px;
+            bottom: 206px;
+            width: 86px;
           }
           @media (max-width: 575px) {
             right: 2px;
